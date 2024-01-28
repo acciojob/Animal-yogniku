@@ -1,5 +1,27 @@
 /*  your css code here. If applicable */
+body{
+	background-color: black;
+	padding: 25px;
+	background-image: url('https://img.freepik.com/premium-photo/abstract-minimal-black-background-sport-3d-rendering-pattern-texture_184920-893.jpg');
+}
+#animal-photos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border: 0px solid gray;
+	background-color: gray;
+	border-radius: 10px;
+}
+#photo-heading{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-size: 30px;
+	text-transform: uppercase;
+}
 img{
-	width:400px;
-	
+	width: 30%;
+	margin-bottom: 12px;
+	border-radius: 25px;
 }
